@@ -4,10 +4,10 @@
  */
 ?>
 .elgg-share {
-    width: 345px;
+    width: 300px;
     position: absolute;
 }
 
 .elgg-menu .elgg-menu-item-share-count {
-    margin-left: 2px;
+    margin-left: 5px;
 }
