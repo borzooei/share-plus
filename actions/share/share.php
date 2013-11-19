@@ -18,9 +18,9 @@ if (!$entity) {
 	forward(REFERER);
 }
 
-// limit likes through a plugin hook (to prevent sharing your own content for example)
+// limit sharing through a plugin hook (to prevent sharing your own content for example)
 if (!$entity->canAnnotate(0, 'share')) {
-	// plugins should register the error message to explain why liking isn't allowed
+	// plugins should register the error message to explain why sharing isn't allowed
 	forward(REFERER);
 }
 
